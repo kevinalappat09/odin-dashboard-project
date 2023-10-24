@@ -148,6 +148,7 @@ body {
     color: white;
     border-radius: 24px;
     min-width: 120px;
+    font-weight: 700;
 
 }
 
@@ -160,6 +161,7 @@ body {
     "project announce"
     "project trending";
     padding : 32px;
+    background-color: #f3f4f6;
 }
 
 .projects { 
@@ -188,6 +190,7 @@ body {
     display: flex;
     flex-direction: column;
     gap: 16px;
+    background-color: #ffffff;
 }
 
 .project-card > .project-heading {
@@ -206,5 +209,50 @@ body {
     padding : 12px;
     border-radius: 24px;
     background-color: #9f1239;
-    color: white;
+    color: white;;
+}
+
+.announcements-list-card {
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    padding : 16px;
+    border-radius: 8px;
+    background-color: #ffffff;
+}
+
+.announce-list {
+    list-style: none;
+}
+
+.announce-list > .announce {
+    border-bottom: 1px solid #d1d5db;
+    padding : 10px;
+}
+
+.announce > .announce-heading {
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.announce > .announce-body {
+    font-size: 12px;
+}
+
+.trending {
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    border-radius: 24px;
+    background-color: #ffffff;
+    padding: 32px;
+}
+
+.trending > .trending-profile {
+    display : flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 16px;
+    padding: 16px;
+    border-bottom: 1px solid #d1d5db;
+}
+
+.trending-acc-img {
+    font-size : 72px;
 }
